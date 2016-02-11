@@ -1,0 +1,37 @@
+GET / Users
+Users / New
+
+C
+R
+U
+D
+ID / Edit
+Put / 
+Delete 
+
+At most, you need 7 different routes from it.
+Get users new. Takes you to a page where you have a form.
+
+Post is to create data.
+Where you create the user.
+
+To get a specific user.
+Edit user.
+Get request. Grab user and go to page to edit information
+Put users ID
+Delete Users ID
+ts are called RESTful APIs. HTTP-based RESTful APIs are defined with these aspects:
+
+base URI, such as http://example.com/resources/
+an Internet media type for the data. This is often JSON but can be any other valid Internet media type (e.g., XML, Atom, microformats, images, etc.)
+standard HTTP methods (e.g., GET, PUT, POST, or DELETE)
+hypertext links to reference state
+hypertext links to reference-related resources[9]
+Example[edit]
+The following table shows the HTTP methods that are typically used to implement a RESTful API:
+
+RESTful API HTTP methods
+Resource	GET	PUT	POST	DELETE
+Collection URI, such as http://api.example.com/resources/	List the URIs and perhaps other details of the collection's members.	Replace the entire collection with another collection.	Create a new entry in the collection. The new entry's URI is assigned automatically and is usually returned by the operation.[10]	Delete the entire collection.
+Element URI, such as http://api.example.com/resources/item17	Retrieve a representation of the addressed member of the collection, expressed in an appropriate Internet media type.	Replace the addressed member of the collection, or if it does not exist, create it.	Not generally used. Treat the addressed member as a collection in its own right and create a new entry in it.[10]	Delete the addressed member of the collection.
+Code Igniter can't be fully restful

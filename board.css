@@ -1,0 +1,36 @@
+/*
+Checkerboard.
+48 px by 48 px square
+
+2 colors.
+
+*/
+
+
+
+#checkerboard, .black, .red {
+	display:block;
+	padding:0px;
+	margin:0px;
+}
+
+#checkerboard {
+	width:384px;
+	height:384px;
+	border:4px solid #000000;
+}
+
+.black, .red {
+	width:48px;
+	height:48px;
+	float:left;
+}
+
+.black {
+	background-color:#000000;
+}
+
+.red {
+	background-color:#FF0000;
+}
+
